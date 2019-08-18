@@ -7,13 +7,14 @@
         "test": "ng test",
         "lint": "ng lint",
         "e2e": "ng e2e",
-        "postinstall": "ng  build --aot -prod",
+        "postinstall": "ng build --aot --target=production",
         "start": "node server.js"
     },
     "private": true,
     "dependencies": {
         "@angular/cli": "~8.2.0",
         "@angular/compiler-cli": "~8.2.0",
+        "typescript": "~3.5.3",
         "@angular/animations": "~8.2.0",
         "@angular/common": "~8.2.0",
         "@angular/compiler": "~8.2.0",
@@ -45,9 +46,10 @@
         "protractor": "~5.4.0",
         "ts-node": "~7.0.0",
         "tslint": "~5.15.0",
-        "typescript": "~3.5.3"
+
     },
     "engines": {
-        "node": "10.16.1"
+        "node": "10.16.1",
+        "npm": "6.9.0"
     }
 }
