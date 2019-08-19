@@ -8,12 +8,18 @@ import { CourseComponent } from './course/course.component';
 import { CoursesService } from './courses.service';
 import { FormsModule } from '@angular/forms';
 import { SummaryPipe } from './summary.pipe';
+import { FavoriteComponent } from './favorite/favorite.component';
+import { LikeComponent } from './like/like.component';
+import { SwitchComponent } from './switch/switch.component';
 @NgModule({
   declarations: [
     AppComponent,
     CoursesComponet,
     CourseComponent,
-    SummaryPipe
+    SummaryPipe,
+    FavoriteComponent,
+    LikeComponent,
+    SwitchComponent
   ],
   imports: [
     BrowserModule,
