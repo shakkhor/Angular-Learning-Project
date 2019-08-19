@@ -11,6 +11,7 @@ import { SummaryPipe } from './summary.pipe';
 import { FavoriteComponent } from './favorite/favorite.component';
 import { LikeComponent } from './like/like.component';
 import { SwitchComponent } from './switch/switch.component';
+import { ZippyComponent } from './zippy/zippy.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +20,8 @@ import { SwitchComponent } from './switch/switch.component';
     SummaryPipe,
     FavoriteComponent,
     LikeComponent,
-    SwitchComponent
+    SwitchComponent,
+    ZippyComponent
   ],
   imports: [
     BrowserModule,
