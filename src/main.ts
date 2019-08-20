@@ -10,7 +10,7 @@ let componet = new LikeComponent(10, true);
 
 componet.onClick();
 
-console.log('likesCount: ' + componet.likesCount)
+// console.log('likesCount: ' + componet.likesCount)
 
 if (environment.production) {
   enableProdMode();
